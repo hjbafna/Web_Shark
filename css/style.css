@@ -1,0 +1,244 @@
+header{
+	text-align: center;
+	padding-top: 20px;
+}
+.hr{
+	position: relative;
+}
+.hr:before{
+	content: "";
+	display: block;
+	width: 4%;
+	height:2px;
+	background: red;
+	position: absolute;
+	left: 45%;
+	top: 120%;
+}
+.hr:after{
+	content: "";
+	display: block;
+	width: 4%;
+	height:2px;
+	background: red;
+	position: absolute;
+	right: 45%;
+	top: 120%;
+}
+.dots1{
+	height: 5px;
+    width: 5px;
+  	background-color: red;
+  	border-radius: 50%;
+  	display: inline-block;
+  	position: absolute;
+  	left: 49%;
+  	top: 76.5px;
+}
+.dots2{
+	height: 5px;
+    width: 5px;
+  	background-color: red;
+  	border-radius: 50%;
+  	display: inline-block;
+  	position: absolute;
+  	right: 49%;
+  	top: 76.5px;
+}
+.dot{
+	height: 8px;
+    width: 8px;
+  	background-color: red;
+  	border-radius: 50%;
+  	display: inline-block;
+  	position: absolute;
+  	right: 49.8%;
+  	top: 75.5px;
+}
+header p{
+	padding-top: 20px;
+}
+.fcontainer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 50px;
+	margin-left: 100px;
+	flex-wrap: wrap;
+}
+.fitem{
+	padding: 20px;
+	width: 50%;
+}
+.fitem_container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.fitem1{
+	padding: 10px;
+}
+.one{
+	display: flex;
+	justify-content: center;
+	/*align-items: center;*/
+
+}
+.oitem{
+	padding: 0px 20px;
+}
+.oval{
+	width: 40px;
+    height:40px;
+    color: white;
+    background: red;
+    border-radius:50px 70px 60px 80px ;
+    text-align: center;
+}
+
+.container{
+	text-align: center;
+}
+hr{
+	width: 75%;
+}
+
+
+/*.lcontainer{
+	position: relative;
+}*/
+.flex1{
+	margin-top: 100px;
+	display: flex;
+	margin-left: 30%;
+	margin-right: 30%;
+	justify-content: space-between;
+	position: relative;
+}
+.flex2{
+	margin-top: 100px;
+	display: flex;
+	margin-left: 20%;
+	margin-right: 20%;
+	justify-content: space-around;
+	position: relative;
+}
+.flex3{
+	margin-top: 100px;
+	display: flex;
+	margin-left: 30%;
+	margin-right: 30%;
+	justify-content: space-between;
+	margin-bottom: 150px;
+	position: relative;
+}
+.img1{
+	position: absolute;
+	top: -45px;
+	left: 39%;
+}
+.img2{
+  height: 148px;
+  width: 152px;
+  position: absolute;
+  right: 8%;
+  top: 10%;
+}
+.img3{
+	position: absolute;
+	top: 55px;
+	left: 38%;
+}
+.cen{
+	text-align: center;
+}
+
+.fline1{
+	width: 20%;
+	position: absolute;
+	border-top: 3px dashed black;
+	top: 100%;
+	left: 20%;
+    transform: skewY(50deg);
+}
+.fline2{
+	width: 20%;
+	position: absolute;
+	border-top: 3px dashed black;
+	top: 100%;
+	right: 20%;
+    transform: skewY(130deg);
+}
+.fline3{
+  width: 13%;
+  border-top: 3px dashed black;
+  position: absolute;
+  left: 25%;
+  top: 30%;
+}
+.fline4{
+  width: 13%;
+  border-top: 3px dashed black;
+  position: absolute;
+  right: 25%;
+  top: 30%;
+}
+
+.fline5{
+	width: 20%;
+	position: absolute;
+	border-top: 3px dashed black;
+	top: -30%;
+	left: 20%;
+    transform: skewY(130deg);
+}
+.fline6{
+	width: 20%;
+	position: absolute;
+	border-top: 3px dashed black;
+	top: -30%;
+	right: 20%;
+    transform: skewY(50deg);
+}
+
+.arrow {
+  width: 200px;
+  height: 200px;
+  border: 2px solid;
+  border-radius: 50%;
+  position: relative;
+}
+.arrow:before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 50px;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  right: -6px;
+  margin: auto;
+}
+.arrow:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #000;
+  position: absolute;
+  bottom: 115px;
+  right: -10px;
+}
+.ldot{
+	height: 8px;
+    width: 8px;
+  	background-color: red;
+  	border-radius: 50%;
+  	display: inline-block;
+  	position: absolute;
+  	right: -2%;
+  	top: 50%;
+}
